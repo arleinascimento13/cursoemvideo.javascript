@@ -1,0 +1,12 @@
+1. Podem começar com letra, $ ou _
+2. Não podem começar com numeros
+3. É possível usar letras ou números
+4. É possível usar acentos e símbolos
+5. Não podem conter espaços
+6. Não podem ser palavras reservadas
+
+Dicas
+
+• Maiúsculas e Minúsculas fazem diferença
+• Tente escolher nomes coerentes para as variáveis
+• Evite se tornar um "programador alfabeto" ou um "programador contador"

@@ -1,0 +1,147 @@
+Typeof - um identificador que mostra qual o tipo primitivo da variável selecionada
+
+Tipos primitivos -
+Operadores Relacionais
+- o resultado da expressão com qualquer
+operador relacional, sempre vai ser booleano,
+falso ou verdadeiro
+
+Operadores de indentidade
+- 5 == 5 // true
+- 5 == '5' // true (valor com string)
+- 5 === '5' // false (operador de indentidade restrita)
+
+Operadores lógicos
+tabelas de prioridade
+1° - ! 2° - && 3° - ||
+- ternarios
+junta-se 3 operandos para resultar entre 2 respostas possíveis, true ou false
+ex: res = x % 2 == 0 ? 5: 9
+enquanto o resultado da expressão for verdadeiro
+res recebe 5, enquanto for falso recebe 9
+
+
+Diferenças entre Var, Let e Const -
+Const - constantes, valores que uma vez definidos não poderão ser mudadas.
+Var -
+Let -
+
+innerText - seleciona o texto que está dentro da tag
+inner HTML - seleciona toda tag
+
+Formatação - Strings
+var s = 'JavaScript'
+'Estou aprendendo s' // não faz interpolação
+'Estou aprendendo ' + s // usa concatenação
+`Estou aprendendo ${s}` // template string
+`seu nome tem: ${nome.length} letras.` // o .length determina quantidade de letras que a palavra possui
+
+Formatação - Números
+var n1 = 1545,5
+n1.toFixed(n) // determina a quantidade de casas decimais para o número
+n1.toFixed(2).replace('.', ',') // substitui o . para ,
+n1.toLocaleString('pt-BR', {style: 'currency', currency: BRL'}) // adiciona valor monetário para o número
+
+Conversão de T.P
+
+Number > String
+- String(n)
+- n.toString()
+
+String > Number
+- Number(s)
+(para especificar se é Int ou Float)
+
+Number.parseInt(s) - inteiro.
+Number.parseFloat(s) - real.
+
+---------------------
+
+DOM - Documento Object Model
+a Árvore DOM pode mudar de acordo com o site e como o site trabalha com o documento.
+
+
+Eventos DOM
+- são acontecimentos que ocorrem quando uma interação do usuário com o documento.
+ex: "click" - se o usuário clickar com o mouse dentro de uma região do documento,
+uma função será disparada
+
+
+----------------------------------------
+
+Funções
+- conjunto de linhas que vão ser executadas quando um evento ocorrer.
+
+
+------------------------------------------
+
+Tipos de condição
+
+-> Condição Simples
+- if(condição){
+    true
+}
+
+-> Condição Composta
+- if(condição){
+    true
+} else{
+    false
+}
+
+->Condição Aninhada
+- if(cond1){
+
+    bloco 1
+
+} else{
+
+    if(cond2){
+
+        bloco 2
+
+    } else{
+
+        bloco 3
+
+    }
+}
+
+Condição Múltipla
+switch case:
+switch{
+    case v1:
+        bloco 1
+    break // o break é obrigatório no final de cada caso
+
+        case v2:
+        bloco 2
+    break
+
+        case v3:
+        bloco 3
+    break
+
+        case v4:
+        bloco 4
+    break
+}
+
+AO USAR STRING, UTILIZAR VALUE PARA RETORNAR VALOR DO INPUT
+
+
+Estrutura de controle de repetição
+
+01. Repetição com teste no início
+    While
+
+
+02. Repetição com teste lógico no final
+    Do While
+
+
+03. Repetição com controle lógico
+    For
+
+
+
