@@ -12,23 +12,29 @@ function Clicar() {
     if (NumberStart.value.length == 0 || NumberEnd.value.length == 0 || NumberIndex.value.length == 0) {
         alert(`[ERRO!] Os dados estão incompletos!`)
     } else { 
-            res.innerHTML = 'Contando: '
-            
+
+        var index = Number((NumberStart).value)
+        var fim = Number((NumberEnd).value)
+        var passo = Number((NumberIndex).value)
+
+        res.innerHTML = `Contando: `
+
+
+        if (index > fim) {
+            // CONTAGEM PROGESSIVA
+            for ( index; index <= fim; index += passo)
+        {
+
+            res.innerHTML += ` \u{1F962} ${index}`
+        }}
+
+        else {
+            // CONTAGEM REGRESSIVA
+            for ( index; index <= fim; index += passo)
+        {
+
+            res.innerHTML += ` \u{1F962} ${index}`
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        }
+    }
 }
