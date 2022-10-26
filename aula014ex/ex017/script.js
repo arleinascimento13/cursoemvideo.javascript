@@ -18,7 +18,7 @@ function Tabuada()
         var mult = "1" 
 
         for (numero; mult <= 10; mult++) {
-            result = +numero*mult
+            result = (+numero)*mult
 
             tabela.innerHTML += (`<option value="${result}">
             ${numero} x ${mult} = ${result}</option>`)

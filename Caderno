@@ -70,7 +70,9 @@ uma função será disparada
 ----------------------------------------
 
 Funções
-- conjunto de linhas que vão ser executadas quando um evento ocorrer.
+- São ações que são executadas assim que são chamadas ou em decorrência de algum evento.
+
+As funções podem receber /parâmetro/ e retornar um /resultado/
 
 
 ------------------------------------------
@@ -142,6 +144,31 @@ Estrutura de controle de repetição
 
 03. Repetição com controle lógico
     For
+
+
+Tipos de Variavéis 
+- Variáveis simples só armazenam um valor por vez
+
+- Variáveis compostas armazenam vários valores em uma mesma estrutura // Também chamada de Arrays
+
+(NOMECLATURA CLARA!)
+
+um vetor é uma variavel que tem varios elementos,
+cada elemento é composto pelo o seu elemento e a sua chave
+
+
+Comandos Internos JavaScript
+para adicionar um valor a o ULTIMO numero desejado dentro de
+um array se utiliza um metodo interno chamado .push
+
+o .indexOf(x) serve retorna qual a chave em que o valor está dentro da chave
+- caso o .indexOf não ache nenhum indice dentro do valor buscado, ele retornará -1
+(METODO)
+
+o .length determina quantidade de letras que a variavel possui
+(ATRIBUTO)
+
+o .sort serve para ordenar de forma crescente (numbers)
 
 
 

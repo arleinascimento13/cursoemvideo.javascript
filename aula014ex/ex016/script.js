@@ -30,7 +30,7 @@ function Clicar() {
 
         else {
             // CONTAGEM REGRESSIVA
-            for ( index; index <= fim; index += passo)
+            for ( index; index => fim; index -= passo)
         {
 
             res.innerHTML += ` \u{1F962} ${index}`
