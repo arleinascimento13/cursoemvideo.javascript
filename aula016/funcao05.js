@@ -1,10 +1,13 @@
+// RECURSIVDADE
+
 function fatorial(n) {
-    for (n; fator = !0; fator--) {
-        res = n * fator
-        break
+    // 5!  5x4!
+    if (n == 1) {
+        return 1
+    } else
+    {
+        return n*fatorial(n-1)
     }
-    
 }
 
-fatorial(5)
-console.log(`o fator de ${n} é ${res})
+console.log(fatorial(5))

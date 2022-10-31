@@ -72,7 +72,11 @@ uma função será disparada
 Funções
 - São ações que são executadas assim que são chamadas ou em decorrência de algum evento.
 
-As funções podem receber /parâmetro/ e retornar um /resultado/
+As funções podem receber /parâmetro - Param e retornar um /resultado - Return
+
+Acontecem casos também de Recursividade, é quando uma função é invocada, dentro dela mesma
+
+
 
 
 ------------------------------------------
