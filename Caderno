@@ -76,8 +76,12 @@ As funções podem receber /parâmetro - Param e retornar um /resultado - Return
 
 Acontecem casos também de Recursividade, é quando uma função é invocada, dentro dela mesma
 
+Função ARROW
 
+function (param1, ..., paramN) = { statements }
+(função padrão)
 
+(param1, ..., paramN) => { statements }
 
 ------------------------------------------
 
@@ -173,6 +177,3 @@ o .length determina quantidade de letras que a variavel possui
 (ATRIBUTO)
 
 o .sort serve para ordenar de forma crescente (numbers)
-
-
-
